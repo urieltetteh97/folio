@@ -12,7 +12,7 @@ const Contact = () => {
             Behance
           </button>
           <button className="w-1.5/3 cursor-pointer rounded-lg bg-gradient-to-bl from-red-500 to-orange-400 text-white font-bold py-2 px-3.5 transition-all duration-300 hover:bg-gradient-to-tr hover:from-orange-200 hover:to-red-800 hover:scale-105">
-            Mail
+            Github
           </button>
         </div>
     </section>
