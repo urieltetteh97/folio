@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'motion/react'
 import project1Thumb from '../assets/AfricamTechThumnb.png'
+import swooshThumb from '../assets/swoosh.png'
 
 const Projects = () => {
   return (
@@ -25,7 +26,7 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row bg-gray-800 rounded-lg shadow-2xl hover:scale-110 transition-all ease-in-out duration-200
         overflow-hidden w-full max-w-3xl">
           <div className="md:w-3/3 w-full flex justify-center items-center p-4">
-            <img src={project1Thumb} alt="Project1 Thumbnail" className='w-5000 h-80 object-cover rounded-2xl ' />
+            <img src={swooshThumb} alt="Project2 Thumbnail" className='w-5000 h-80 object-cover rounded-2xl ' />
           </div>
           <div className="md:w-2/3 w-full flex flex-col justify-center items-start p-4 text-left">
             <h2 className='text-xl font-bold text-white'>Swoosh Product Delivery Services</h2>
