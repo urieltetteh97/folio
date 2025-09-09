@@ -10,7 +10,7 @@ const Contact = () => {
               LinkedIn
             </button>
           </a>
-          <a href="https://www.behance.net/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.behance.net/urieltetteh" target="_blank" rel="noopener noreferrer">
             <button className="w-1.5/3 cursor-pointer rounded-lg bg-gradient-to-bl from-red-500 to-orange-400 text-white font-bold py-2 px-3.5 transition-all duration-300 hover:bg-gradient-to-tr hover:from-orange-200 hover:to-red-800 hover:scale-105">
               Behance
             </button>
