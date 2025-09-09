@@ -30,7 +30,7 @@ const Projects = () => {
           <div className="md:w-2/3 w-full flex flex-col justify-center items-start p-4 text-left">
             <h2 className='text-xl font-bold text-white'>Swoosh Product Delivery Services</h2>
             <p className='text-gray-400'>This sample project is designed for a company that provides nationwide delivery for various products. This page was built on ReactJS with Tailwind CSS styling and animations and graphics from the Lottie React library. </p>
-            <a href="#" className='text-orange-400 hover:underline mt-2'>View Project</a>
+            <a href="https://swoosh-kappa.vercel.app/" className='text-orange-400 hover:underline mt-2'>View Project</a>
           
           </div>
         </div>
