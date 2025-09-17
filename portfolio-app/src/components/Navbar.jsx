@@ -28,16 +28,16 @@ const Navbar = () => {
               <a href="#projects" className='tracking-tight cursor-pointer font-bold text-white hover:text-orange-400 text-2xl'>Projects</a>
             </li>
             <li className='transform hover:scale-110 transition-all duration-300 ease-in-out'>
-              <a href="#contact" className='tracking-tight cursor-pointer font-bold text-white hover:text-orange-400 text-2xl'>Contact Us</a>
+              <a href="#contact" className='tracking-tight cursor-pointer font-bold text-white hover:text-orange-400 text-2xl'>Contact</a>
             </li>
           </ul>
         </div>
         {/* Mobile Dropdown */}
         <ul className="flex-col bg-dark rounded-lg shadow-md mt-2 p-4 space-y-4 lg:hidden hidden peer-checked:flex" id="menu">
-          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl">Home</a></li>
-          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl">About</a></li>
-          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl">Projects</a></li>
-          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl">Contact Us</a></li>
+          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl hover:bg-gray-700 rounded-md py-1.5 px-1.5 transition-colors duration-150">Home</a></li>
+          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl hover:bg-gray-700 rounded-md py-1.5 px-1.5 transition-colors duration-150">About</a></li>
+          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl hover:bg-gray-700 rounded-md py-1.5 px-1.5 transition-colors duration-150">Projects</a></li>
+          <li><a href="#" className="block text-white font-bold hover:text-orange-400 text-xl hover:bg-gray-700 rounded-md py-1.5 px-1.5 transition-colors duration-150">Contact</a></li>
         </ul>
       </div>
     </nav>
