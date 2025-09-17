@@ -18,13 +18,13 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-5xl tracking-tight font-bold flex flex-col transform text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500 transition-opacity duration-500 fade-in"
+            className="text-5xl tracking-tight font-bold flex flex-col transform text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-800 transition-opacity duration-500 fade-in"
           >
             Hi There
             <br />
             I'm Uriel Tetteh
             <motion.span
-              className="text-3xl mt-4 text-gray-300 tracking-wide align-start"
+              className="text-3xl mt-4 text-black tracking-wide align-start"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.4 }}

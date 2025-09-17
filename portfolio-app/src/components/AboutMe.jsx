@@ -8,7 +8,7 @@ const AboutMe = () => {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="text-gray-300 text-md text-center py-2.5 px-2.5 sm:w-3/3 md:w-2/3 font-semibold tracking-tight"
+        className="text-black text-md text-center py-2.5 px-2.5 sm:w-3/3 md:w-2/3 font-semibold tracking-tight"
       >
             My journey in web development has been fueled by a love for coding and a desire to build innovative solutions that enhance user experiences.
             With skills in the React framework and experience with Tailwind and Bootstrap styling and WordPress website development, I strive to create responsive and dynamic web applications that are both functional and visually appealing.
@@ -19,7 +19,7 @@ const AboutMe = () => {
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="rounded-md cursor-pointer bg-orange-400 text-2xl py-1.5 px-7.5 text-white hover:text-black hover:bg-gradient-to-b from-orange-400 to-red-500 transition-colors duration-500"
+          className="rounded-md cursor-pointer bg-teal-400 text-2xl py-1.5 px-7.5 text-white hover:text-black hover:bg-gradient-to-b from-teal-400 to-purple-800 transition-colors duration-500"
         >
           My CV
         </motion.button>
