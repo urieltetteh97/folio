@@ -30,63 +30,71 @@ const Projects = () => {
       >
         Projects
       </motion.h1>
-      <div className="flex flex-col gap-8 items-center">
-        {/* Project Cards */}
-        {/*
-          {
-            title: "Africam Tech",
-            description: "AFricam Tech is a B2B e-commerce website to provide a variety of electronic security services and products to retailers. My responsibilities on this project included product listing through the WooCommerce plug-in and webpage design using Elementor and Worpress themes.",
-            image: project1Thumb,
-            link: "https://africamtech.com/"
-          },
-          {
-            title: "Swoosh Product Delivery Services",
-            description: "This sample project is designed for a company that provides nationwide delivery for various products. This page was built on ReactJS with Tailwind CSS styling and animations and graphics from the Lottie React library.",
-            image: swooshThumb,
-            link: "https://swoosh-kappa.vercel.app/"
-          },
-          // ...add other projects
-        */}
-        { [
-          {
-            title: "Africam Tech",
-            description: "AFricam Tech is a B2B e-commerce website to provide a variety of electronic security services and products to retailers. My responsibilities on this project included product listing through the WooCommerce plug-in and webpage design using Elementor and Worpress themes.",
-            image: project1Thumb,
-            link: "https://africamtech.com/"
-          },
-          {
-            title: "Swoosh Product Delivery Services",
-            description: "This sample project is designed for a company that provides nationwide delivery for various products. This page was built on ReactJS with Tailwind CSS styling and animations and graphics from the Lottie React library.",
-            image: swooshThumb,
-            link: "https://swoosh-kappa.vercel.app/"
-          },
-          {
-            title: "First Love Church",
-            description: "This sample project is designed for a company that provides nationwide delivery for various products. This page was built on ReactJS with Tailwind CSS styling and anima",
-            image: swooshThumb,
-            link: "https://swoosh-kappa.vercel.app/"
-          },
-
-          // ...add other projects
-        ].map((project, index) => (
-          <motion.div
-            key={index}
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4 py-7">
+          {/* Image Column */}
+          <motion.div 
             variants={fadeInUp}
             initial="initial"
             whileInView="whileInView"
-            viewport={{ once: true, margin: "-100px" }}
-            className="flex flex-col md:flex-row bg-gray-400 rounded-lg shadow-2xl overflow-hidden w-full max-w-3xl"
+            viewport={{ once: true }}
+            className="flex justify-center items-center"
           >
-            <div className="md:w-3/3 w-full flex justify-center items-center p-4">
-              <img src={project.image} alt={`${project.title} Thumbnail`} className='w-5000 h-80 object-cover rounded-2xl' />
-            </div>
-            <div className="md:w-2/3 w-full flex flex-col justify-center items-start p-4 text-left">
-              <h2 className='text-xl font-bold text-teal-600'>{project.title}</h2>
-              <p className='text-black'>{project.description}</p>
-              <a href={project.link} className='text-teal-500 hover:underline mt-2'>View Project</a>
-            </div>
+            <img 
+              src={project1Thumb} 
+              alt="Africam Tech" 
+              className='w-full h-auto rounded-lg shadow-lg'
+            />
           </motion.div>
-        )) }
+
+          {/* Content Column */}
+          <motion.div 
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="whileInView"
+            viewport={{ once: true }}
+            className="flex flex-col justify-center space-y-4"
+          >
+            <h2 className="text-2xl text-teal-700 font-bold">
+              Africam Tech Website
+            </h2>
+            <p className="text-black/80">
+              AFricam Tech is a B2B e-commerce website to provide a variety of electronic security services and products to retailers. My responsibilities on this project included product listing through the WooCommerce plug-in and webpage design using Elementor and Worpress themes.
+            </p>
+          </motion.div>
+        </div>
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-4 py-7">
+          {/* Image Column */}
+          <motion.div 
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="whileInView"
+            viewport={{ once: true }}
+            className="flex justify-center items-center"
+          >
+            <img 
+              src={swooshThumb} 
+              alt="Swoosh Delivery" 
+              className='w-full h-auto rounded-lg shadow-lg'
+            />
+          </motion.div>
+
+          {/* Content Column */}
+          <motion.div 
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="whileInView"
+            viewport={{ once: true }}
+            className="flex flex-col justify-center space-y-4"
+          >
+            <h2 className="text-2xl text-teal-700 font-bold">
+              Swoosh Delivery Services
+            </h2>
+            <p className="text-black/80">
+              This sample project is designed for a company that provides nationwide delivery for various products. This page was built on ReactJS with Tailwind CSS styling and animations and graphics from the Lottie React library.
+            </p>
+          </motion.div>
+        </div>
       </div>
     </section>
   )
