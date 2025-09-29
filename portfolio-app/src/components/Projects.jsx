@@ -62,7 +62,9 @@ const Projects = () => {
               AFricam Tech is a B2B e-commerce website to provide a variety of electronic security services and products to retailers. My responsibilities on this project included product listing through the WooCommerce plug-in and webpage design using Elementor and Worpress themes.
             </p>
            <button className="rounded-2xl px-4.5 py-3.5 cursor-pointer transform hover:scale-108 transition-all duration-300 ease-in-out bg-gradient-to-r from-teal-500 to-purple-700 w-max mt-4">
-              <span className="text-white font bold text-2xl">View Project</span>
+              <span className="text-white font bold text-2xl">
+                <a href="https://africamtech.com/"> View Project</a></span>
+              
             </button>
           </motion.div>
         </div>
@@ -97,7 +99,9 @@ const Projects = () => {
               This sample project is designed for a company that provides nationwide delivery for various products. This page was built on ReactJS with Tailwind CSS styling and animations and graphics from the Lottie React library.
             </p>
             <button className="rounded-2xl px-4.5 py-3.5 cursor-pointer transform hover:scale-108 transition-all duration-300 ease-in-out bg-gradient-to-r from-teal-500 to-purple-700 w-max mt-4">
-              <span className="text-white font bold text-2xl">View Project</span>
+              <span className="text-white font bold text-2xl">
+                <a href="https://swoosh-kappa.vercel.app/"> View Project</a></span>
+              
             </button>
 
           </motion.div>
