@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import profilePic from '../assets/uu.jpg'
+import profilePic from '../assets/uugemini.jpg'
 
 const About = () => {
   const fadeInUp = {
@@ -26,7 +26,7 @@ const About = () => {
         initial="initial"
         animate="animate"
       >
-        <div className="md:w-1/2 w-full flex flex-col justify-center items-start md:text-left text-center">
+        <div className="md:w-1/2 w-full flex flex-col justify-center items-start md:text-left text-center ms-6">
           <motion.h1
             variants={fadeInUp}
             initial="initial"
