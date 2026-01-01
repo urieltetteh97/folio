@@ -137,7 +137,7 @@ const Projects = () => {
             </p>
             <button className="rounded-2xl px-4.5 py-3.5 cursor-pointer transform hover:scale-108 transition-all duration-300 ease-in-out bg-gradient-to-r  from-purple-800 to-purple-500 w-max mt-4">
               <span className="text-white font bold text-2xl">
-                <a href="#"> View Project</a></span>
+                <a href="https://restaurant-website-ten-kappa.vercel.app/"> View Project</a></span>
               
             </button>
 
