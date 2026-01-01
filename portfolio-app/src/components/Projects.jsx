@@ -53,7 +53,7 @@ const Projects = () => {
             initial="initial"
             whileInView="whileInView"
             viewport={{ once: true }}
-            className="flex flex-col justify-center space-y-4"
+            className="flex flex-col justify-center items-center space-y-4"
           >
             <h2 className="text-2xl text-teal-700 font-bold">
               Africam Tech Website
@@ -90,7 +90,7 @@ const Projects = () => {
             initial="initial"
             whileInView="whileInView"
             viewport={{ once: true }}
-            className="flex flex-col justify-center space-y-4"
+            className="flex flex-col justify-center items-center space-y-4"
           >
             <h2 className="text-2xl text-teal-700 font-bold">
               Swoosh Delivery Services
@@ -101,6 +101,43 @@ const Projects = () => {
             <button className="rounded-2xl px-4.5 py-3.5 cursor-pointer transform hover:scale-108 transition-all duration-300 ease-in-out bg-gradient-to-r  from-purple-800 to-purple-500 w-max mt-4">
               <span className="text-white font bold text-2xl">
                 <a href="https://swoosh-kappa.vercel.app/"> View Project</a></span>
+              
+            </button>
+
+          </motion.div>
+
+    
+           <motion.div 
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="whileInView"
+            viewport={{ once: true }}
+            className="flex justify-center"
+          >
+            <img 
+              src={swooshThumb} 
+              alt="Swoosh Delivery" 
+              className='w-full h-auto rounded-lg shadow-lg'
+            />
+          </motion.div>
+
+
+          <motion.div 
+            variants={fadeInUp}
+            initial="initial"
+            whileInView="whileInView"
+            viewport={{ once: true }}
+            className="flex flex-col justify-center items-center space-y-4"
+          >
+            <h2 className="text-2xl text-teal-700 font-bold">
+              Eatery
+            </h2>
+            <p className="text-black/80">
+              A website for a restaurant or bistro, showcasing menu items and services available. Built on ReactJS with Tailwind CSS and animation utilizing Framer Motion.
+            </p>
+            <button className="rounded-2xl px-4.5 py-3.5 cursor-pointer transform hover:scale-108 transition-all duration-300 ease-in-out bg-gradient-to-r  from-purple-800 to-purple-500 w-max mt-4">
+              <span className="text-white font bold text-2xl">
+                <a href="#"> View Project</a></span>
               
             </button>
 
