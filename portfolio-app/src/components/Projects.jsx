@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import project1Thumb from '../assets/AfricamTechThumnb.png'
 import swooshThumb from '../assets/swoosh.png'
+import eateryThumb from '../assets/Eateryscreenshot.png'
 
 const Projects = () => {
   const fadeInUp = {
@@ -115,8 +116,8 @@ const Projects = () => {
             className="flex justify-center"
           >
             <img 
-              src={swooshThumb} 
-              alt="Swoosh Delivery" 
+              src={eateryThumb} 
+              alt="Eatery Website" 
               className='w-full h-auto rounded-lg shadow-lg'
             />
           </motion.div>
